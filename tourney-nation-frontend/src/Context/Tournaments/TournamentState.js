@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 
 const TournamentState = (props) => {
   const navigate = useNavigate();
-  const host = "https://tourney-nation-backend.onrender.com"
+  const host = "https://tourneynation.onrender.com"
   const tournamentsInitial = []
   const [tournaments, setTournaments] = useState(tournamentsInitial)
   //get all tournaments created
